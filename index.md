@@ -1,4 +1,4 @@
 ---
-title: Welcome to my blog
+title: Can 2 Capital; Decentralised recycling
 ---
 
