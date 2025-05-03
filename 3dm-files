@@ -1,5 +1,1 @@
-mkdir 3dm-files
-touch 3dm-files/.gitkeep
-git add 3dm-files/.gitkeep
-git commit -m "Created 3dm-files folder with placeholder"
-git push origin main
+
