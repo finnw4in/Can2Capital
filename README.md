@@ -23,3 +23,7 @@ Can 2 Capital differs from traditional industrial aluminium recycling as it seek
 ---
 
 Join the movement and make a difference with **Can 2 Capital** today!
+
+## Download Files
+
+- [Download 3DM Files](https://github.com/finnw4in/Can2Capital/tree/main/3dm-files)
