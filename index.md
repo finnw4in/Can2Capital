@@ -1,71 +1,64 @@
-# Can 2 Capital: A Decentralised Digital Kit
+<!--
+Can 2 Capital: GitHub Pages Homepage
+Theme Colors:
+- Green: #85bf87
+- Orange: #fd8800
 
-**Can 2 Capital** is a decentralised digital kit that enables anyone and everyone to turn waste aluminium cans into something valuable that can be sold, traded, or kept.
+Note: GitHub Pages renders markdown as HTML, but does not support custom CSS in markdown files.
+For advanced theming, create a custom CSS file and link it in your _config.yml or HTML head.
+Inline styles on text are supported, so we use them for color highlights.
+-->
 
----
+<p align="center">
+  <img src="https://github.com/finnw4in/Can2Capital/raw/main/logo.png" alt="Can 2 Capital Logo" width="160">
+</p>
 
-## How Does It Differ?
+<h1 align="center" style="color:#85bf87;">Can 2 Capital</h1>
+<h3 align="center" style="color:#fd8800;">A Decentralised Digital Kit</h3>
 
-Can 2 Capital differs from traditional industrial aluminium recycling as it seeks to return **profit to the user**, not the producer.
-
----
-
-## How It Works
-
-1. **Collect** waste aluminium cans.
-2. **Use the Can 2 Capital kit** (requires 100 Joules of human effort, 50g PETG, and a carbide insert) to process the can.
-3. **Create** a valuable output (e.g., ingot, part, or digital token).
-4. **Sell, trade, or keep** your output—profit goes directly to you!
-
----
-
-## Powered by YOU
-
-- **100 Joules of Human Effort** (about X minutes of manual work)
-- **50g of PETG & Carbide Insert** (used in the [tool/machine name])
-- **Simple, open-source tools**—no specialized industrial equipment needed
+<p align="center">
+  <b><span style="color:#fd8800;">Turn waste aluminium cans into value.</span></b><br>
+  <span style="color:#85bf87;">Powered by you. Profit to you.</span>
+</p>
 
 ---
 
-## Key Benefits
+## <span style="color:#85bf87;">How Does It Differ?</span>
 
-- **28x Increase in Recycling Collection Efficiency**
-- **Recycle with 99.8% Less Energy** than industrial recycling
-- **Direct User Profit**—you keep what you make!
+Can 2 Capital differs from traditional industrial aluminium recycling as it seeks to return <b><span style="color:#fd8800;">profit to the user</span></b>, not the producer.
 
 ---
 
-## Why Decentralised?
+## <span style="color:#fd8800;">Powered by YOU:</span>
 
-By distributing the means and knowledge to recycle, we empower individuals and communities, bypassing traditional profit structures.
-
----
-
-## Get Started
-
-- [Download 3DM Files](https://github.com/finnw4in/Can2Capital/tree/main/3dm-files)
-- [Join the Community](#) (Add your Discord/forum link)
-- [Read the Full Guide](#) (Link to detailed instructions)
+- <span style="color:#85bf87;">100 Joules of Human Effort</span>
+- <span style="color:#85bf87;">50g of PETG & Carbide Insert</span>
 
 ---
 
-## FAQ
+## <span style="color:#85bf87;">Key Benefits</span>
 
-**Who can participate?**  
-Anyone with basic tools and access to PETG and a carbide insert.
-
-**Is the process safe?**  
-Yes, when following guidelines. Always use proper safety equipment.
-
-**How is profit returned?**  
-You keep or trade the end product directly.
+- <b><span style="color:#fd8800;">28x Increase</span></b> in Recycling Collection Efficiency  
+- <span style="color:#85bf87;">Recycle with <b>99.8% Less Energy</b></span> than industrial recycling
 
 ---
 
-## License
+## <span style="color:#fd8800;">Get Started</span>
 
-[MIT License](LICENSE)
+- [<span style="color:#85bf87;">Download 3DM Files</span>](https://github.com/finnw4in/Can2Capital/tree/main/3dm-files)
+- <span style="color:#fd8800;">Read the full guide (coming soon)</span>
+- <span style="color:#85bf87;">Join the community (coming soon)</span>
 
 ---
 
-Join the movement and make a difference with **Can 2 Capital** today!
+<div align="center">
+
+### <span style="color:#fd8800;">Join the movement and make a difference with <b>Can 2 Capital</b> today!</span>
+
+</div>
+
+---
+
+<!--
+Tip: For advanced theming, add a custom CSS file to your repository and reference it in your GitHub Pages configuration.
+-->
