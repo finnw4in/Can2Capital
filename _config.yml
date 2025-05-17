@@ -4,7 +4,10 @@ sass:
 
   # If you already have these sections, just add the relevant lines.
 # This tells Jekyll to include your custom CSS file in the site assets.
-
+# Add this if your theme supports it
+# For example:
+additional_css:
+  - /assets/css/custom.css
 defaults:
   -
     scope:
