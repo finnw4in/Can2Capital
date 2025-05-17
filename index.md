@@ -8,8 +8,6 @@ Note: GitHub Pages markdown supports inline HTML styles for text, including head
 For advanced global theming, custom CSS is required.
 -->
 
-
-<h1 align="center" style="color:#85bf87;">Can 2 Capital</h1>
 <h3 align="center" style="color:#85bf87;">A Decentralised Digital Kit</h3>
 
 <p align="center">
