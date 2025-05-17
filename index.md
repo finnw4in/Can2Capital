@@ -1,6 +1,8 @@
 <!-- Add your image as a banner -->
 <p align="center">
   <img src="images/BenchTop RenderV3.68.png" alt="BenchTop Render" style="max-width: 100%; border-radius: 18px;">
+link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,700&display=swap" rel="stylesheet"
+
 </p>
 
 <h1 align="center" style="color:#e78d3c;">Can 2 Capital: A Decentralised Digital Kit</h1>
