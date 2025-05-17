@@ -9,7 +9,7 @@ For advanced global theming, custom CSS is required.
 -->
 
 <p align="center">
-  <img src="images/BenchTop RenderV3.68.png" alt="Can 2 Capital Logo" width="160">
+  <img src="images/BenchTop RenderV3.68.png" alt="Can 2 Capital Logo" width="320">
 </p>
 
 <h1 align="center" style="color:#85bf87;">Can 2 Capital</h1>
