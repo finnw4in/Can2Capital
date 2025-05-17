@@ -1,23 +1,3 @@
 theme: jekyll-theme-time-machine
 sass:
   style: compressed
-
-  # If you already have these sections, just add the relevant lines.
-# This tells Jekyll to include your custom CSS file in the site assets.
-# Add this if your theme supports it
-# For example:
-additional_css:
-  - /assets/css/custom.css
-defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      css: "/assets/css/custom.css"
-  -
-    scope:
-      path: ""
-      type: "pages"
-    values:
-      css: "/assets/css/custom.css"
