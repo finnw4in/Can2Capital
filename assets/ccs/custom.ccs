@@ -1,0 +1,9 @@
+/* Custom heading colors for Time Machine theme */
+
+h1 {
+  color: #e78d3c; /* Orange for main titles */
+}
+
+h2, h3, h4, h5, h6 {
+  color: #91bf8d; /* Green for other headings */
+}
