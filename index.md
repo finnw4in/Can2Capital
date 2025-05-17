@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Welcome to Can2Capital
-css: "assets/css/style.scss"
+SCSS: "assets/css/style.scss"
 ---
 <!-- Add your image as a banner -->
 <p align="center">
