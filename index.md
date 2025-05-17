@@ -8,12 +8,13 @@ Note: GitHub Pages markdown supports inline HTML styles for text, including head
 For advanced global theming, custom CSS is required.
 -->
 
-<p align="center">
-  <img src="images/BenchTop RenderV3.68.png" alt="Can 2 Capital Logo" width="2560">
-</p>
 
 <h1 align="center" style="color:#85bf87;">Can 2 Capital</h1>
 <h3 align="center" style="color:#85bf87;">A Decentralised Digital Kit</h3>
+
+<p align="center">
+  <img src="images/BenchTop RenderV3.68.png" alt="Can 2 Capital Logo" width="2560">
+</p>
 
 <p align="center">
   <b><span style="color:#85bf87;">Turn waste aluminium cans into value.</span></b><br>
