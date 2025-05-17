@@ -12,7 +12,7 @@ For advanced global theming, custom CSS is required.
   <img src="images/BenchTop RenderV3.68.png" alt="Can 2 Capital Logo" width="2560">
 </p>
 
-<h2 align="centre" style="color:#85bf87;">A Decentralised Digital Kit</h2>
+<h2 align="center" style="color:#85bf87;">A Decentralised Digital Kit</h2>
 
 <p align="center">
   <b><span style="color:#85bf87;">Turn waste aluminium cans into value.</span></b><br>
