@@ -10,7 +10,7 @@ For advanced global theming, custom CSS is required.
 
 
 <p align="center">
-  <img src="images/BenchTop RenderV3.76.png" alt="Can 2 Capital Logo" style="width:100%;max-width:1800px;height:auto;display:block;margin:0 auto;">
+  <img src="images/BenchTop RenderV3.76.png" alt="Can 2 Capital Logo" style="width:200%;max-width:3000px;height:auto;display:block;margin:0 auto;">
 </p>
 <h2 align="center" style="color:#85bf87;">A Decentralised Digital Kit</h2>
 
