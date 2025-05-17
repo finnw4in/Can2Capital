@@ -16,7 +16,7 @@ For advanced global theming, custom CSS is required.
 <h3 align="center" style="color:#85bf87;">A Decentralised Digital Kit</h3>
 
 <p align="center">
-  <b><span style="color:#fd8800;">Turn waste aluminium cans into value.</span></b><br>
+  <b><span style="color:#85bf87;">Turn waste aluminium cans into value.</span></b><br>
   <span style="color:#85bf87;">Powered by you. Profit to you.</span>
 </p>
 
@@ -24,7 +24,7 @@ For advanced global theming, custom CSS is required.
 
 <h2 style="color:#85bf87;">How Does It Differ?</h2>
 
-Can 2 Capital differs from traditional industrial aluminium recycling as it seeks to return <b><span style="color:#fd8800;">profit to the user</span></b>, not the producer.
+Can 2 Capital differs from traditional industrial aluminium recycling as it seeks to return <b><span style="color:#85bf87 ;">profit to the user</span></b>, not the producer.
 
 ---
 
@@ -37,7 +37,7 @@ Can 2 Capital differs from traditional industrial aluminium recycling as it seek
 
 <h2 style="color:#85bf87;">Key Benefits</h2>
 
-- <b><span style="color:#fd8800;">28x Increase</span></b> in Recycling Collection Efficiency  
+- <b><span style="color:#85bf87;">28x Increase</span></b> in Recycling Collection Efficiency  
 - <span style="color:#85bf87;">Recycle with <b>99.8% Less Energy</b></span> than industrial recycling
 
 ---
