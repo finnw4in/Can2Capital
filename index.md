@@ -14,7 +14,7 @@ For advanced global theming, custom CSS is required.
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-    max-width: 1200px; /* You can adjust this value for your ideal maximum size */
+    max-width: 3000px; /* You can adjust this value for your ideal maximum size */
     height: auto;
   }
 </style>
