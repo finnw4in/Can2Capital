@@ -1,4 +1,5 @@
----
+<link rel="stylesheet" href="/assets/css/custom.css">---
+
 layout: home
 title: Welcome to Can2Capital
 ---
