@@ -1,0 +1,8 @@
+# _config.yml
+theme: minima  # or another supported theme
+
+# Add this line if the theme supports it
+sass:
+  load_paths:
+    - _sass
+    - assets/css
