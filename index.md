@@ -8,8 +8,19 @@ Note: GitHub Pages markdown supports inline HTML styles for text, including head
 For advanced global theming, custom CSS is required.
 -->
 
+<style>
+  .hero-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 1200px; /* You can adjust this value for your ideal maximum size */
+    height: auto;
+  }
+</style>
+
 <p align="center">
-  <img src="images/BenchTop RenderV3.76.png" alt="Can 2 Capital Logo" width="4000">
+  <img src="images/BenchTop RenderV3.76.png" alt="Can 2 Capital Logo" class="hero-img">
 </p>
 
 <h2 align="center" style="color:#85bf87;">A Decentralised Digital Kit</h2>
