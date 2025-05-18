@@ -24,6 +24,17 @@
     .text-content {
       flex: 1.6 1 0;
       min-width: 0;
+      position: relative;
+    }
+    .inline-hero-img {
+      width: 100%;
+      max-width: 600px;
+      margin: 2rem auto 2rem auto;
+      display: block;
+      border-radius: 8px;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.06);
+      object-fit: contain;
+      height: auto;
     }
     .image-column {
       display: flex;
@@ -42,9 +53,6 @@
       border-radius: 8px;
       box-shadow: 0 4px 24px rgba(0,0,0,0.06);
       object-fit: contain;
-    }
-    .hero-img:last-child {
-      margin-bottom: 0;
     }
     h2, h3 {
       color: #85bf87;
@@ -83,6 +91,9 @@
         max-width: 500px;
         min-width: 0;
       }
+      .inline-hero-img {
+        max-width: 100%;
+      }
     }
     @media (max-width: 900px) {
       .main-section {
@@ -105,19 +116,26 @@
       h2, h3 {
         text-align: center;
       }
+      .inline-hero-img {
+        max-width: 100%;
+        margin: 2rem 0 2rem 0;
+      }
     }
   </style>
 </head>
 <body>
   <div class="main-section">
     <div class="text-content">
-      <!-- Your existing text content here -->
       <h2>A Decentralised Digital Kit</h2>
       <div>
         <b class="key-points">Turn waste aluminium cans into value.</b><br>
         <span style="color:#85bf87;">Printed by you. Powered by you. Profit to You.</span>
       </div>
       <hr class="divider">
+
+      <!-- Inline image before "How Does It Differ?" -->
+      <img src="images/BenchTop RenderV3.76.png" alt="Can 2 Capital Logo" class="inline-hero-img">
+
       <h2>How Does It Differ?</h2>
       <p>
         Can 2 Capital differs from traditional industrial aluminium recycling as it seeks to return
@@ -174,7 +192,6 @@
       </div>
     </div>
     <div class="image-column">
-      <img src="images/BenchTop RenderV3.76.png" alt="Can 2 Capital Logo" class="hero-img">
       <img src="images/BenchTop RenderV3.101.png" alt="BenchTop Render V3.101" class="hero-img">
     </div>
   </div>
