@@ -19,40 +19,29 @@
       max-width: 1600px;
       margin: 0 auto;
       padding: 2rem 1rem;
-      gap: 3rem;
+      gap: 2rem;
     }
-    .text-content {
-      flex: 1.6 1 0;
-      min-width: 0;
-      position: relative;
-    }
-    .inline-hero-img {
-      width: 100%;
-      max-width: 600px;
-      margin: 2rem auto 2rem auto;
-      display: block;
-      border-radius: 8px;
-      box-shadow: 0 4px 24px rgba(0,0,0,0.06);
-      object-fit: contain;
-      height: auto;
-    }
-    .image-column {
+    .left-image,
+    .right-image {
+      flex: 1 1 0;
+      max-width: 300px;
+      min-width: 200px;
       display: flex;
       flex-direction: column;
       align-items: center;
-      flex: 1.4 1 0;
-      max-width: 750px;
-      min-width: 320px;
-      width: 100%;
     }
-    .hero-img {
+    .left-image img,
+    .right-image img {
       width: 100%;
       height: auto;
-      display: block;
-      margin-bottom: 24px;
       border-radius: 8px;
       box-shadow: 0 4px 24px rgba(0,0,0,0.06);
       object-fit: contain;
+    }
+    .text-content {
+      flex: 2 1 0;
+      min-width: 0;
+      max-width: 900px;
     }
     h2, h3 {
       color: #85bf87;
@@ -85,46 +74,38 @@
     @media (max-width: 1200px) {
       .main-section {
         max-width: 1000px;
-        gap: 2rem;
+        gap: 1.2rem;
       }
-      .image-column {
-        max-width: 500px;
-        min-width: 0;
-      }
-      .inline-hero-img {
-        max-width: 100%;
+      .left-image, .right-image {
+        max-width: 200px;
+        min-width: 100px;
       }
     }
     @media (max-width: 900px) {
       .main-section {
-        flex-direction: column !important;
+        flex-direction: column;
         align-items: stretch;
-        gap: 1.5rem;
+        gap: 1rem;
         max-width: 100%;
       }
-      .image-column {
-        order: 2;
-        max-width: 100%;
-        min-width: 0;
-        margin-top: 2rem;
-      }
-      .text-content {
-        order: 1;
+      .left-image, .right-image, .text-content {
         max-width: 100%;
         min-width: 0;
       }
+      .left-image { order: 2; }
+      .text-content { order: 1; }
+      .right-image { order: 3; margin-bottom: 2rem;}
       h2, h3 {
         text-align: center;
-      }
-      .inline-hero-img {
-        max-width: 100%;
-        margin: 2rem 0 2rem 0;
       }
     }
   </style>
 </head>
 <body>
   <div class="main-section">
+    <div class="left-image">
+      <img src="images/BenchTop RenderV3.76.png" alt="Can 2 Capital Logo">
+    </div>
     <div class="text-content">
       <h2>A Decentralised Digital Kit</h2>
       <div>
@@ -132,10 +113,6 @@
         <span style="color:#85bf87;">Printed by you. Powered by you. Profit to You.</span>
       </div>
       <hr class="divider">
-
-      <!-- Inline image before "How Does It Differ?" -->
-      <img src="images/BenchTop RenderV3.76.png" alt="Can 2 Capital Logo" class="inline-hero-img">
-
       <h2>How Does It Differ?</h2>
       <p>
         Can 2 Capital differs from traditional industrial aluminium recycling as it seeks to return
@@ -191,8 +168,8 @@
         <h3>Join the movement and make a difference with <b>Can 2 Capital</b> today!</h3>
       </div>
     </div>
-    <div class="image-column">
-      <img src="images/BenchTop RenderV3.101.png" alt="BenchTop Render V3.101" class="hero-img">
+    <div class="right-image">
+      <img src="images/BenchTop RenderV3.101.png" alt="BenchTop Render V3.101">
     </div>
   </div>
 </body>
