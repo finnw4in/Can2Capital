@@ -21,7 +21,11 @@
       padding: 2rem 1rem;
       gap: 2rem;
     }
-    .left-image,
+    .text-content {
+      flex: 2 1 0;
+      min-width: 0;
+      max-width: 900px;
+    }
     .right-image {
       flex: 1 1 0;
       max-width: 300px;
@@ -29,24 +33,18 @@
       display: flex;
       flex-direction: column;
       align-items: center;
+      gap: 24px;
     }
-    .left-image img,
-    .right-image img,
-    .hero-img {
+    .right-image img {
       width: 100%;
       height: auto;
       border-radius: 8px;
       box-shadow: 0 4px 24px rgba(0,0,0,0.06);
       object-fit: contain;
     }
-    /* By default, show desktop image, hide mobile image */
-    .mobile-only { display: none; }
-    .desktop-only { display: block; }
-
-    .text-content {
-      flex: 2 1 0;
-      min-width: 0;
-      max-width: 900px;
+    /* Hide mobile-only image by default */
+    .mobile-img {
+      display: none;
     }
     h2, h3 {
       color: #85bf87;
@@ -75,13 +73,12 @@
       color: #85bf87;
       font-weight: bold;
     }
-    /* Responsive adjustments */
     @media (max-width: 1200px) {
       .main-section {
         max-width: 1000px;
         gap: 1.2rem;
       }
-      .left-image, .right-image {
+      .right-image {
         max-width: 200px;
         min-width: 100px;
       }
@@ -93,28 +90,37 @@
         gap: 1rem;
         max-width: 100%;
       }
-      .left-image, .right-image, .text-content {
+      .text-content, .right-image {
         max-width: 100%;
         min-width: 0;
       }
-      .left-image { order: 2; }
-      .text-content { order: 1; }
-      .right-image { order: 3; margin-bottom: 2rem;}
+      .right-image {
+        margin-bottom: 2rem;
+        flex-direction: column;
+        gap: 1.5rem;
+      }
+      /* Show the mobile image above 'How Does It Differ?' */
+      .mobile-img {
+        display: block;
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+        box-shadow: 0 4px 24px rgba(0,0,0,0.06);
+        object-fit: contain;
+        margin: 2rem 0;
+      }
+      /* Hide the first image in the right column on mobile */
+      .right-image img:first-child {
+        display: none;
+      }
       h2, h3 {
         text-align: center;
       }
-      /* On mobile: show mobile image, hide desktop image */
-      .mobile-only { display: block; margin: 2rem 0; }
-      .desktop-only { display: none; }
     }
   </style>
 </head>
 <body>
   <div class="main-section">
-    <div class="left-image">
-      <!-- Desktop version of left image -->
-      <img src="images/BenchTop RenderV3.76.png" alt="Can 2 Capital Logo" class="desktop-only">
-    </div>
     <div class="text-content">
       <h2>A Decentralised Digital Kit</h2>
       <div>
@@ -122,8 +128,8 @@
         <span style="color:#85bf87;">Printed by you. Powered by you. Profit to You.</span>
       </div>
       <hr class="divider">
-      <!-- Mobile version of left image: appears above How Does It Differ? on mobile only -->
-      <img src="images/BenchTop RenderV3.76.png" alt="Can 2 Capital Logo" class="hero-img mobile-only">
+      <!-- Mobile-only image, visible above "How Does It Differ?" on mobile -->
+      <img src="images/BenchTop RenderV3.76.png" alt="Can 2 Capital Logo" class="mobile-img">
       <h2>How Does It Differ?</h2>
       <p>
         Can 2 Capital differs from traditional industrial aluminium recycling as it seeks to return
@@ -180,6 +186,7 @@
       </div>
     </div>
     <div class="right-image">
+      <img src="images/BenchTop RenderV3.76.png" alt="Can 2 Capital Logo">
       <img src="images/BenchTop RenderV3.101.png" alt="BenchTop Render V3.101">
     </div>
   </div>
