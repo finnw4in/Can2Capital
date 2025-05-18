@@ -25,17 +25,26 @@
       flex: 1.6 1 0;
       min-width: 0;
     }
-    .hero-img {
+    .image-column {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
       flex: 1.4 1 0;
       max-width: 750px;
       min-width: 320px;
       width: 100%;
+    }
+    .hero-img {
+      width: 100%;
       height: auto;
       display: block;
-      margin: 0;
+      margin-bottom: 24px;
       border-radius: 8px;
       box-shadow: 0 4px 24px rgba(0,0,0,0.06);
       object-fit: contain;
+    }
+    .hero-img:last-child {
+      margin-bottom: 0;
     }
     h2, h3 {
       color: #85bf87;
@@ -70,19 +79,26 @@
         max-width: 1000px;
         gap: 2rem;
       }
-      .hero-img {
+      .image-column {
         max-width: 500px;
         min-width: 0;
       }
     }
     @media (max-width: 900px) {
       .main-section {
-        flex-direction: column-reverse !important; /* Switch order: image above text */
-        align-items: center;
+        flex-direction: column !important;
+        align-items: stretch;
         gap: 1.5rem;
         max-width: 100%;
       }
-      .text-content, .hero-img {
+      .image-column {
+        order: 2;
+        max-width: 100%;
+        min-width: 0;
+        margin-top: 2rem;
+      }
+      .text-content {
+        order: 1;
         max-width: 100%;
         min-width: 0;
       }
@@ -93,42 +109,34 @@
   </style>
 </head>
 <body>
-
   <div class="main-section">
     <div class="text-content">
+      <!-- Your existing text content here -->
       <h2>A Decentralised Digital Kit</h2>
       <div>
         <b class="key-points">Turn waste aluminium cans into value.</b><br>
         <span style="color:#85bf87;">Printed by you. Powered by you. Profit to You.</span>
       </div>
-
       <hr class="divider">
-
       <h2>How Does It Differ?</h2>
       <p>
         Can 2 Capital differs from traditional industrial aluminium recycling as it seeks to return
         <b class="key-points">profit to the user</b>, not the producer.
       </p>
-
       <hr class="divider">
-
       <h2>Powered by YOU:</h2>
       <ul>
         <li><span class="key-points">100 Joules of Human Effort</span></li>
         <li><span class="key-points">50g of PETG &amp; Carbide Insert</span></li>
       </ul>
-
       <hr class="divider">
-
       <h2>Key Benefits</h2>
       <ul>
         <li><b class="key-points">28x Increase</b> in Recycling Collection Efficiency</li>
         <li><span class="key-points">Recycle with <b>99.8% Less Energy</b></span> than industrial recycling</li>
         <li><b class="key-points">£3.31 Per Unit</b> Phase One Investment Cost</li>
       </ul>
-
       <hr class="divider">
-
       <h2>What you'll need</h2>
       <ul>
         <li>3D printer</li>
@@ -140,7 +148,6 @@
         <li>Soldering Iron</li>
         <li>Assembly & User Guide (provided below)</li>
       </ul>
-
       <h3>Carbide Lathe Inserts</h3>
       <ul>
         <li><strong>North America:</strong> <a href="https://www.carbidedepot.com/Inserts/C-80-DEG-DIAMOND/CCMT/ISCAR-M3M-CHIPBREAKER" target="_blank">Supplier NA Carbide</a></li>
@@ -148,14 +155,12 @@
         <li><strong>India:</strong> <a href="https://www.indiamart.com/proddetail/ccmt-insert-21659007297.html?srsltid=AfmBOoo6dyZhjTpcHt3KE8s_tcdwvJr8OwQe9nm1nEA9W6_-ww5skeyb">Indian Domestic</a></li>
         <li><strong>Global:</strong> <a href="https://www.alibaba.com/product-detail/CCMT-Inserts-Made-In-China-High_60746665972.html" target="_blank">Chinese Export</a></li>
       </ul>
-
       <h3>M4 Brass Inserts</h3>
       <ul>
         <li><strong>North America:</strong> <a href="https://www.mcmaster.com/94459A150/" target="_blank">Supplier NA Brass</a></li>
         <li><strong>Europe:</strong> <a href="https://cnckitchen.store/products/heat-set-insert-m4-x-8-1-50-pieces?srsltid=AfmBOoolFELGaf2ye-BGzHko7eT6vpFnFNtdF2bZYbMVqTiG_XxH0TFZ&utm_source=chatgpt.com" target="_blank">Supplier EU Brass</a></li>
         <li><strong>Global:</strong> <a href="https://www.alibaba.com/product-detail/TOORY-M2-M3-M4-M5-M6_1601336252518.html?spm=a2700.factory_search.0.0.1eae7812ckOiNN" target="_blank">Chinese Export</a></li>
       </ul>
-
       <h2>Get Started</h2>
       <ul>
         <li><a href="https://github.com/finnw4in/Can2Capital/tree/main/3dm-files">Download 3DM Files</a></li>
@@ -163,14 +168,15 @@
         <li><a href="Manuals/User Manual.pdf">User Manual </a></li>
         <li><a href="#">Join the community (coming soon)</a></li>
       </ul>
-
       <hr class="divider">
-
       <div class="center">
         <h3>Join the movement and make a difference with <b>Can 2 Capital</b> today!</h3>
       </div>
     </div>
-    <img src="images/BenchTop RenderV3.76.png" alt="Can 2 Capital Logo" class="hero-img">
+    <div class="image-column">
+      <img src="images/BenchTop RenderV3.76.png" alt="Can 2 Capital Logo" class="hero-img">
+      <img src="images/BenchTop RenderV3.101.png" alt="BenchTop Render V3.101" class="hero-img">
+    </div>
   </div>
 </body>
 </html>
