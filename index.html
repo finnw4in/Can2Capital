@@ -1,3 +1,4 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -22,27 +23,28 @@
       gap: 2rem;
     }
     .text-content {
-      flex: 2 1 0;
-      min-width: 0;
-      max-width: 900px;
+      flex: 1 1 0;
+      max-width: 600px; /* reduced for more image space */
+      min-width: 300px;
     }
     .right-image {
-      flex: 1 1 0;
-      max-width: 300px;
-      min-width: 200px;
+      flex: 2 1 0; /* increased for more image space */
+      max-width: 900px;
+      min-width: 300px;
       display: flex;
       flex-direction: column;
       align-items: center;
-      gap: 24px;
+      gap: 32px;
     }
     .right-image img {
       width: 100%;
+      max-width: 800px;
       height: auto;
       border-radius: 8px;
       box-shadow: 0 4px 24px rgba(0,0,0,0.06);
       object-fit: contain;
+      transition: max-width 0.2s;
     }
-    /* Hide mobile-only image by default */
     .mobile-img {
       display: none;
     }
@@ -79,8 +81,11 @@
         gap: 1.2rem;
       }
       .right-image {
-        max-width: 200px;
-        min-width: 100px;
+        max-width: 600px;
+        min-width: 0;
+      }
+      .right-image img {
+        max-width: 600px;
       }
     }
     @media (max-width: 900px) {
@@ -102,16 +107,27 @@
       /* Show the mobile image above 'How Does It Differ?' */
       .mobile-img {
         display: block;
-        width: 100%;
+        width: 100vw;
+        max-width: 100vw;
+        margin-left: -1rem;
+        margin-right: -1rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
         height: auto;
         border-radius: 8px;
         box-shadow: 0 4px 24px rgba(0,0,0,0.06);
         object-fit: contain;
-        margin: 2rem 0;
       }
       /* Hide the first image in the right column on mobile */
       .right-image img:first-child {
         display: none;
+      }
+      /* Make all right-image images large on mobile */
+      .right-image img {
+        width: 100vw;
+        max-width: 100vw;
+        margin-left: -1rem;
+        margin-right: -1rem;
       }
       h2, h3 {
         text-align: center;
@@ -192,3 +208,4 @@
   </div>
 </body>
 </html>
+```
